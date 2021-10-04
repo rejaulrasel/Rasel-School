@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='overflow-hidden footer text-white'>
         <div>
         <Row>
-            <Col className='text-center p-5' sm={4}>
+            <Col className='text-center p-5 text' sm={4}>
                 <h3>Popular Courses</h3>
                 <p>WEB DEVELOPMENT</p>
                 <p>LEARN HTML CSS</p>

@@ -1,11 +1,26 @@
 .course{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.945);
     margin: 30px;
-    height: 500px;
+    height: fit-content;
+    
+    
+}
+.course:hover{
+    box-shadow: 5px 5px 10px black;
 }
 .course h3{
     text-align: center;
 }
 .course p{
     text-align: center;
+}
+.course p:hover{
+    color: black;
+}
+button{
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 20px;
 }

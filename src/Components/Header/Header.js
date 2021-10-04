@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Header.css'
 const Header = () => {
     return (
-        <div>
+        <div className='header'>
             <Navbar className='navbar' variant="dark">
                 <Container>
                     <h1 className='text-light fw-bold'><span className='text-warning'>RASEL'S</span> SCHOOL</h1>

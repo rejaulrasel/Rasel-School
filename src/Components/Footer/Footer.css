@@ -6,3 +6,9 @@
     margin-left: 20px;
     color: white;
 }
+.icon:hover{
+    color: lightblue
+}
+.text h3,p:hover{
+    color:lightblue;
+}
