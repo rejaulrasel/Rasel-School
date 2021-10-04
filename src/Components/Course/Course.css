@@ -8,9 +8,7 @@
 .course:hover{
     box-shadow: 5px 5px 10px black;
 }
-.course h3{
-    text-align: center;
-}
+
 .course p{
     text-align: center;
 }
@@ -23,4 +21,5 @@ button{
     padding: 5px;
     cursor: pointer;
     margin-top: 20px;
+    font-weight: 500;
 }

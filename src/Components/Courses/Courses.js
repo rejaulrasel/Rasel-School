@@ -1,4 +1,5 @@
 import React from 'react';
+import { Row } from 'react-bootstrap';
 import Course from '../Course/Course';
 import useCourses from '../Hooks/useCourses';
 import './Courses.css'
@@ -8,9 +9,13 @@ const Courses = () => {
     return (
         <div className='courses-section'>
             <div className='courses container'>
-            {courses.map(course => <Course
+                <Row xs={1} md={3}>
+            {
+            courses.map(course => <Course
             course={course}
-            ></Course>)}
+            ></Course>)
+            }
+            </Row>
             </div>
         </div>
     );
