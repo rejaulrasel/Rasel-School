@@ -1,0 +1,12 @@
+.navbar{
+    background-color: #172239;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+.link:hover{
+    color: orange;
+}
