@@ -7,6 +7,7 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Courses from './Components/Courses/Courses';
 import PageNotFound from './Components/PageNotFound/PageNotFound';
+import OurTeam from './Components/OurTeam/OurTeam';
 
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route exact path='/courses'>
             <Courses></Courses>
+          </Route>
+          <Route exact path='/teams'>
+            <OurTeam></OurTeam>
           </Route>
           <Route exact path='*'>
         <PageNotFound></PageNotFound>

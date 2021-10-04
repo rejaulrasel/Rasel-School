@@ -1,0 +1,9 @@
+.home-course img{
+    width: 200px;  
+}
+.home-course{
+    background-color: white;
+    margin: 30px;
+    color: black;
+    padding: 0;
+}
