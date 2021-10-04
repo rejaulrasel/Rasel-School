@@ -1,0 +1,29 @@
+.about{
+    background-color: #222a3a;
+    color: white;
+}
+.school-structure{
+    font-size: 20px;
+    color: yellow;
+}
+
+.school-info:hover{
+    color: lightblue;
+}
+.registration{
+    background-color: #2d384a;
+}
+.exam-registration{
+    background-color: #565f6d;
+    color: white;
+    width: fit-content;
+    text-align: center;
+    padding:  40px;
+    margin-top: 50px;
+}
+input{
+    margin-top: 40px;
+    width: 80%;
+    padding:10px;
+    background-color: rgba(255, 255, 255, 0.959);
+}
