@@ -9,7 +9,6 @@ import img6 from './players/player-6.png'
 const OurTeam = () => {
     return (
         <div className='team'>
-            <h1>TEAMS</h1>
             <div className="members">
                 <div className="member">
                     <img src={img1} alt="" />

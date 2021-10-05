@@ -1,25 +1,36 @@
 .home{
-    background-color: #222a3a;
-    text-align: center;
+    background-color: #172239b2;
+    /* text-align: center; */
     color: white;
     
 }
 .class-title{
-    font-size: 60px;
+    font-size: 60px;  
+}
+.heading{
+    padding-top: 150px;
 }
 .school-info{
-    margin-top: 120px;
-}
-button{
-    width: 10%;
+    padding-top: 150px;
 }
 .promo-courses{
-    background-color: #2f374d;
-    margin-top: 100px;
+    background-color: #13131f;
+    margin-top: 200px;
 }
 .home-courses{
-    margin-top: 50px;
+    
+    margin: 50px 100px 0;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     padding-bottom: 50px;
+}
+#video{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    height: fit-content;
+    object-fit: cover;
+    transform: translate(-50%,-50%);
+    z-index: -1;
 }

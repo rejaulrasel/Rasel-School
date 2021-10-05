@@ -1,20 +1,24 @@
 .about{
-    background-color: #222a3a;
+    background-color: #0d131a;
     color: white;
+    padding-top: 50px;
+    height: 700px;
 }
 .school-structure{
     font-size: 20px;
     color: yellow;
+    margin-top: 50px;
 }
 
 .school-info:hover{
     color: lightblue;
 }
 .registration{
-    background-color: #2d384a;
+    background-color: #2b323dda;
+    color: white;
 }
 .exam-registration{
-    background-color: #565f6d;
+    background-color: #565f6d5d;
     color: white;
     width: fit-content;
     text-align: center;
@@ -25,5 +29,17 @@ input{
     margin-top: 40px;
     width: 80%;
     padding:10px;
-    background-color: rgba(255, 255, 255, 0.959);
+    background-color: rgba(255, 255, 255, 0.918);
+}
+
+#video2{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    height: fit-content;
+    object-fit: cover;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    margin-top: 610px;
 }

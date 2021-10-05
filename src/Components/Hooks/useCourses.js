@@ -1,8 +1,11 @@
 import {useState} from 'react';
 import {useEffect} from 'react';
 const useCourses = () => {
+
+    // declare state for all courses
     const [courses, setCourses] = useState([]);
-    console.log(courses)
+
+    // load the data from json file
     useEffect(() => {
         fetch('./courses.json')
         .then(res => res.json())

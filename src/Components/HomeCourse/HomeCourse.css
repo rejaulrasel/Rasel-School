@@ -1,9 +1,16 @@
 .home-course img{
-    width: 200px;  
+    width: 100%;  
 }
 .home-course{
     background-color: white;
     margin: 30px;
     color: black;
     padding: 0;
+    height: fit-content;
+    border-radius: 30px;
+}
+.home-course h5{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
 }
