@@ -1,6 +1,6 @@
 # Rasel's SCHOOL
 
-## Live website link [Website Link](https://education-assgnmnt-09.netlify.app/).
+## Live website link [Website Link](https://admiring-jackson-de1106.netlify.app).
 
 # Projects Overview
 
