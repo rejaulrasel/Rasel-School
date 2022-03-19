@@ -23,3 +23,8 @@ button{
     margin-top: 20px;
     font-weight: 500;
 }
+.name:hover{
+    transform: scale(1.2);
+    color: red;
+    transition: transform 1.4s;
+}
